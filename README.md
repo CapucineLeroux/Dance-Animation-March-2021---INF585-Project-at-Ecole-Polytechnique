@@ -1,0 +1,5 @@
+There are two different codes. 
+The one called interactive_poses is an interactive interface. The body can be moved joint by joint with the Shift-key. It visualizes the bones, joints, wireframe, plain mesh and even the proxies used later to handle collisions with the cloth. And last, the poses can be saved in a buffer with the S-key and written in a text file with the F-key. 
+The one called visualizer renders the final animation loop interpolating the key poses saved in the text file. The timer scale can be changed, the visualizer shows the body skeleton, and mesh, but also the rest pose position. There are currently two different set of keyposes, one where the woman dances called "anim_dance" and one where the woman walks called "anim_walk". They can be both visualized here and the animation can be stopped at any time. 
+All the data concerning the robot are in "assets/xbot" file, including the key poses. The rest of the "assets" file contains the textures and initial positions of the cloths. 
+The vcl library is in the "library" file. 
